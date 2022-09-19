@@ -1,0 +1,19 @@
+.monsters-container{
+    background-color: white;
+    width: 49vw;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.buttons-container{
+    display: flex;
+    flex-direction: row ;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+
+img{
+    margin-top: 25px;
+    width: 400px;
+    height: 200px
+}

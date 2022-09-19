@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+    color: red
+}
+.main-container{
+    background-color: black;
+}
+
+.content-container{
+    display: flex;
+    background-color: white;
+
+}

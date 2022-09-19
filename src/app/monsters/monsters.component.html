@@ -1,0 +1,21 @@
+
+<div class="monsters-container">
+    <h2>Descubri los Monstruos!</h2>
+    
+    
+    <div class="buttons-container">
+        <button (click)="currentMonster=''">Monsters</button>
+        
+        <button *ngFor="let monster of monsters" (click)="currentMonster = monster">
+            {{monster}}
+        </button>
+    </div>
+    
+    <div class="img-container">
+        <img *ngIf="currentMonster == ''" src="../../assets/strager-things-multimedia/monsters.jpg">
+        <img *ngIf="currentMonster!= ''"  src="../../assets/strager-things-multimedia/{{currentMonster}}.jpeg">
+    </div>
+    
+
+</div>
+
